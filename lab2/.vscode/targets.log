@@ -1,0 +1,343 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82
+# Built for i686-pc-mingw32
+# Copyright (C) 2010  Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Apr 26 01:55:03 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := d:/KNU/Functional-programing/lab2
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"uk","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\User\OneDrive
+# environment
+PUBLIC = C:\Users\Public
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\User\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d418e46a-f6ba-4c84-bcfa-bb5d6edbb107-sock
+# environment
+VSCODE_CWD = C:\Users\User\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\watcom-1.3\binnt;C:\watcom-1.3\binw;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corpora 
+tion\PhysX\Common;C:\FPC\3.0.2\bin\i386-Win32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Git\cmd;D:\Brackets\command;D:\Qt\5.9.9\mingw53_32\bin;D:\Matlab\runtime\win64;D:\Matlab\bin;D:\Matlab\polyspace\bin;C:\cygwin64\bin;C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\LLVM\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\ghc-9.2.2-x86_64-unknown-mingw32;C:\Program Files (x86)\Haskell\bin;C:\ghc\ghc-7.6.1\bin;C:\Users\User\AppData\Roaming\local\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;D:\Qt\5.9.9\mingw53_32\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\bin;;D:\GoLand 2020.3.2\bin;;C:\Users\User\go\bin;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\PostgreSQL\13\bin;D:\PyCharm 2020.3.5\bin;;D:\boost_1_72_0;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+NIEXTCCOMPILERSUPP = C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\User
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\User\go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine archives
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\bin;
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14664_IMJOLPESCIQZOKBW
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = STDOMBR
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+GOLAND = D:\GoLand 2020.3.2\bin;
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = User
+# environment
+KMP_DUPLICATE_LIB_OK = TRUE
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\User\AppData\Roaming\Code\CachedData\dfd34e8260c270da74b5c2d86d61aee4b6d56977
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\STDOMBR
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = STDOMBR
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_DEVICE_PIXEL_RATIO = auto
+# environment
+BOOST_ROOT = D:\boost_1_72_0
+# default
+MAKE_VERSION := 3.82
+# makefile
+.DEFAULT_GOAL := run
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+STACK_ROOT = C:\sr
+# environment
+LOCALAPPDATA = C:\Users\User\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\ddf78b73f802b4b105ac4da8ec09dfcf-1.66.2-main-sock
+# environment
+HOMEPATH = \Users\User
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\User\AppData\Roaming
+# environment
+TEMP = C:\Users\User\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+MKL_SERIAL = YES
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e09
+# environment
+PYCHARM = D:\PyCharm 2020.3.5\bin;
+# environment
+WATCOM = C:\watcom-1.3
+# default
+.RECIPEPREFIX := 
+# environment
+ADSK_3DSMAX_X64_2022 = D:\Autodesk\3ds Max 2022\
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PT7HOME = C:\Program Files\Cisco Packet Tracer 7.3.0
+# environment
+VSCODE_PID = 14664
+# environment
+USERDOMAIN_ROAMINGPROFILE = STDOMBR
+# variable set hash-table stats:
+# Load=101/1024=10%, Rehash=0, Collisions=12/119=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# \Program Files\PostgreSQL\13\bin;D: could not be stat'd.
+# \Program Files (x86)\NVIDIA Co 
+rporation\PhysX\Common;C: could not be stat'd.
+# \Matlab\runtime\win64;D: could not be stat'd.
+# \ghc-9.2.2-x86_64-unknown-mingw32;C: could not be stat'd.
+# \WINDOWS\System32\OpenSSH\;C: could not be stat'd.
+# \FPC\3.0.2\bin\i386-Win32;C: could not be stat'd.
+# \PyCharm 2020.3.5\bin;;D: could not be stat'd.
+# \mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C: could not be stat'd.
+# \Brackets\command;D: could not be stat'd.
+# . (key d:/KNU/Functional-programing/lab2, mtime 1650927299): 7 files, no impossibilities.
+# \Windows;C: could not be stat'd.
+# \Program Files\Docker\Docker\resources\bin;C: could not be stat'd.
+# \Program Files\Go\bin;C: could not be stat'd.
+# \WINDOWS\System32\Wbem;C: could not be stat'd.
+# C: could not be stat'd.
+# \cygwin64\bin;C: could not be stat'd.
+# \GoLand 2020.3.2\bin;;C: could not be stat'd.
+# \Users\User\go\bin;C: could not be stat'd.
+# \Windows\System32\Wbem;C: could not be stat'd.
+# \ghc\ghc-7.6.1\bin;C: could not be stat'd.
+# \Program Files\LLVM\bin;C: could not be stat'd.
+# \Matlab\bin;D: could not be stat'd.
+# \Matlab\polyspace\bin;C: could not be stat'd.
+# \Qt\5.9.9\mingw53_32\bin;D: could not be stat'd.
+# \Users\User\AppData\Local\Microsoft\WindowsApps;D: could not be stat'd.
+# \WINDOWS\System32\WindowsPowerShell\v1.0\;C: could not be stat'd.
+# \Program Files (x86)\QuickTime\QTSystem\;C: could not be stat'd.
+# \Program Files\JetBrains\IntelliJ IDEA 2020.2.2\bin;;D: could not be stat'd.
+# \ProgramData\DockerDesktop\version-bin;C: could not be stat'd.
+# \Program Files\Microsoft SQL Server\120\Tools\Binn\;C: could not be stat'd.
+# \Users\User\AppData\Local\Microsoft\WindowsApps;C: could not be stat'd.
+# \Program Files (x86)\Haskell\bin;C: could not be stat'd.
+# \Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C: could not be stat'd.
+# \WINDOWS\system32;C: could not be stat'd.
+# \Windows\system32;C: could not be stat'd.
+# \ProgramData\Oracle\Java\javapath;C: could not be stat'd.
+# \Users\User\AppData\Local\GitHubDesktop\bin;C: could not be stat'd.
+# \Users\User\AppData\Roaming\local\bin;C: could not be stat'd.
+# \boost_1_72_0;: could not be stat'd.
+# \Program Files\Common Files\Autodesk Shared\;C: could not be stat'd.
+# \watcom-1.3\binnt;C: could not be stat'd.
+# \Program Files\Git\cmd;D: could not be stat'd.
+# \Windows\System32\WindowsPowerShell\v1.0\;C: could not be stat'd.
+# \WINDOWS;C: could not be stat'd.
+# \Program Files (x86)\Common Files\Oracle\Java\javapath;C: could not be stat'd.
+# \watcom-1.3\binw;C: could not be stat'd.
+# \Qt\5.9.9\mingw53_32\bin;C: could not be stat'd.
+
+# 7 files, no impossibilities in 47 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-15 12:18:10
+#  File has been updated.
+#  Successfully updated.
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from `Makefile', line 5):
+	stack exec -- runhaskell tests.hs
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from `Makefile', line 2):
+	stack exec -- runhaskell main.hs
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0 / lookups = 63 / hits = 63
+# # of strcache buffers: 1 (* 8176 B/buffer = 8176 B)
+# strcache used: total = 0 (1553) / max = 0 / min = 8176 / avg = 0
+# strcache free: total = 0 (6623) / max = 0 / min = 8176 / avg = 0
+
+# strcache hash-table stats:
+# Load=58/8 
+192=1%, Rehash=0, Collisions=1/63=2%
+# Finished Make data base on Tue Apr 26 01:55:03 2022
+
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+
