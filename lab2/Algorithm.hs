@@ -9,9 +9,6 @@ type Vector = [Number]
 type Row = [Number]
 type Matrix = [Row]
 
-mapMatrix :: Matrix -> Vector -> Vector
-mapMatrix rows v = [ sum (zipWith (*) row v) | row <- rows ]
-
 rotatePivot :: Matrix -> Matrix
 rotatePivot (row : rows) | (head row) /= 0 = (row : rows)
                          | otherwise       = rotatePivot (rows ++ [row])
@@ -43,6 +40,3 @@ gauss a b = x
     b' = map (\y -> [y]) b
     a' = zipWith (++) a b' 
     x  = resubstitute $ triangular a'
-
--- based on https://haskellicious.wordpress.com/2012/11/26/the-gauss-algorithm-in-haskell/
--- with improvements and reading the docs about what each piece means

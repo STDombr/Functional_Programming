@@ -4,11 +4,11 @@ main :: IO ()
 main = do
   print "A * x == b  where"
 
-  let mA = [[1, -2, 1], [2, 1, -3], [4, -7, 1]] :: Matrix
+  let mA = [[3, 2, -5], [2, -1, 3], [1, 2, -1]] :: Matrix
   putStr "A="
   print mA
 
-  let mb = [0, 5, -1] :: Vector
+  let mb = [-1,13, 9] :: Vector
   putStr "b="
   print mb
 
@@ -18,3 +18,6 @@ main = do
 
   print (mapMatrix mA x)
   print mb
+  
+mapMatrix :: Matrix -> Vector -> Vector
+mapMatrix rows v = [ sum (zipWith (*) row v) | row <- rows ]
